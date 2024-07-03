@@ -37,7 +37,7 @@ const logger1 = createLogger({
       maxSize: "100m", // 100 MB (example size)
       maxFiles: 1000, /// For example, keep up to 10 rotated files
     }),
-    new winston.transports.Console(),
+    //new winston.transports.Console(),
   ],
 });
 
