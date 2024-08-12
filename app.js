@@ -44,7 +44,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:8080'] // Replace with your React app's origin
+  origin: ['http://localhost:3000', 'http://localhost:8080', 'https://ecommerce.ezurr.com'] // Replace with your React app's origin
 }));
 
 app.use(logger('dev'));
